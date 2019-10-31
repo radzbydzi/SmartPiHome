@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Smart" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Smart" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Smart" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-std=c++11" />
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="include" />
+			<Add directory="include/LuaBridge" />
+			<Add directory="/usr/include/lua5.2/" />
+		</Compiler>
+		<Linker>
+			<Add option="-llua5.2" />
+			<Add option="-lsqlite3" />
+			<Add option="-lpthread" />
+			<Add option="-lbcm2835" />
+			<Add directory="include" />
+			<Add directory="include/LuaBridge" />
+		</Linker>
+		<Unit filename="hardwarelua.lua" />
+		<Unit filename="include/AutoHomePi.h" />
+		<Unit filename="include/DataVector.h" />
+		<Unit filename="include/Device.h" />
+		<Unit filename="include/Hardware.h" />
+		<Unit filename="include/HardwareList.h" />
+		<Unit filename="include/I2C.h" />
+		<Unit filename="include/LuaBridge/List.h" />
+		<Unit filename="include/LuaBridge/LuaBridge.h" />
+		<Unit filename="include/LuaBridge/Map.h" />
+		<Unit filename="include/LuaBridge/RefCountedObject.h" />
+		<Unit filename="include/LuaBridge/RefCountedPtr.h" />
+		<Unit filename="include/LuaBridge/UnorderedMap.h" />
+		<Unit filename="include/LuaBridge/Vector.h" />
+		<Unit filename="include/LuaBridge/detail/CFunctions.h" />
+		<Unit filename="include/LuaBridge/detail/ClassInfo.h" />
+		<Unit filename="include/LuaBridge/detail/Config.h" />
+		<Unit filename="include/LuaBridge/detail/Constructor.h" />
+		<Unit filename="include/LuaBridge/detail/FuncTraits.h" />
+		<Unit filename="include/LuaBridge/detail/Iterator.h" />
+		<Unit filename="include/LuaBridge/detail/LuaException.h" />
+		<Unit filename="include/LuaBridge/detail/LuaHelpers.h" />
+		<Unit filename="include/LuaBridge/detail/LuaRef.h" />
+		<Unit filename="include/LuaBridge/detail/Namespace.h" />
+		<Unit filename="include/LuaBridge/detail/Security.h" />
+		<Unit filename="include/LuaBridge/detail/Stack.h" />
+		<Unit filename="include/LuaBridge/detail/TypeList.h" />
+		<Unit filename="include/LuaBridge/detail/TypeTraits.h" />
+		<Unit filename="include/LuaBridge/detail/Userdata.h" />
+		<Unit filename="include/LuaBridge/detail/dump.h" />
+		<Unit filename="include/OneWire.h" />
+		<Unit filename="include/json.h" />
+		<Unit filename="luascript.lua" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/AutoHomePi.cpp" />
+		<Unit filename="src/DataVector.cpp" />
+		<Unit filename="src/Device.cpp" />
+		<Unit filename="src/Hardware.cpp" />
+		<Unit filename="src/HardwareList.cpp" />
+		<Unit filename="src/I2C.cpp" />
+		<Unit filename="src/OneWire.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

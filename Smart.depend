@@ -1,0 +1,400 @@
+# depslib dependency file v1.0
+1571001741 source:/home/pi/p/Smart/main.cpp
+	<AutoHomePi.h>
+	<bcm2835.h>
+	<I2C.h>
+	<sched.h>
+	<sys/mman.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+	<LuaBridge.h>
+	<iostream>
+
+1389370498 /usr/include/lua5.2/lua.h
+	<stdarg.h>
+	<stddef.h>
+	"luaconf.h"
+
+1414225256 /usr/include/lua5.2/luaconf.h
+	<limits.h>
+	<stddef.h>
+	"lua5.2-deb-multiarch.h"
+	<stdio.h>
+	<math.h>
+
+1389370498 /usr/include/lua5.2/lauxlib.h
+	<stddef.h>
+	<stdio.h>
+	"lua.h"
+
+1389370498 /usr/include/lua5.2/lualib.h
+	"lua.h"
+
+1568223980 /home/pi/p/Smart/include/LuaBridge/LuaBridge.h
+	<LuaBridge/detail/LuaHelpers.h>
+	<LuaBridge/detail/TypeTraits.h>
+	<LuaBridge/detail/TypeList.h>
+	<LuaBridge/detail/FuncTraits.h>
+	<LuaBridge/detail/Constructor.h>
+	<LuaBridge/detail/ClassInfo.h>
+	<LuaBridge/detail/LuaException.h>
+	<LuaBridge/detail/LuaRef.h>
+	<LuaBridge/detail/Iterator.h>
+	<LuaBridge/detail/Userdata.h>
+	<LuaBridge/detail/CFunctions.h>
+	<LuaBridge/detail/Security.h>
+	<LuaBridge/detail/Stack.h>
+	<LuaBridge/detail/Namespace.h>
+
+1568223982 /home/pi/p/Smart/include/LuaBridge/detail/LuaHelpers.h
+	<cassert>
+
+1568223982 /home/pi/p/Smart/include/LuaBridge/detail/TypeTraits.h
+	<string>
+
+1568223982 /home/pi/p/Smart/include/LuaBridge/detail/TypeList.h
+	<LuaBridge/detail/Config.h>
+	<LuaBridge/detail/Stack.h>
+	<string>
+	<typeinfo>
+
+1568223982 /home/pi/p/Smart/include/LuaBridge/detail/Config.h
+
+1568223982 /home/pi/p/Smart/include/LuaBridge/detail/Stack.h
+	<LuaBridge/detail/LuaHelpers.h>
+	<LuaBridge/detail/Userdata.h>
+	<string>
+
+1568223982 /home/pi/p/Smart/include/LuaBridge/detail/Userdata.h
+	<LuaBridge/detail/ClassInfo.h>
+	<cassert>
+	<stdexcept>
+
+1568223982 /home/pi/p/Smart/include/LuaBridge/detail/ClassInfo.h
+
+1568223982 /home/pi/p/Smart/include/LuaBridge/detail/FuncTraits.h
+	<LuaBridge/detail/Config.h>
+	<functional>
+
+1568223982 /home/pi/p/Smart/include/LuaBridge/detail/Constructor.h
+
+1568223982 /home/pi/p/Smart/include/LuaBridge/detail/LuaException.h
+	<exception>
+	<string>
+
+1569024555 /home/pi/p/Smart/include/LuaBridge/detail/LuaRef.h
+	<LuaBridge/detail/LuaException.h>
+	<LuaBridge/detail/Stack.h>
+	<iostream>
+	<string>
+	<vector>
+	<map>
+
+1568223982 /home/pi/p/Smart/include/LuaBridge/detail/Iterator.h
+	<LuaBridge/detail/LuaRef.h>
+	<utility>
+
+1568223982 /home/pi/p/Smart/include/LuaBridge/detail/CFunctions.h
+	<LuaBridge/detail/Config.h>
+	<LuaBridge/detail/FuncTraits.h>
+	<string>
+
+1568223982 /home/pi/p/Smart/include/LuaBridge/detail/Security.h
+
+1568223982 /home/pi/p/Smart/include/LuaBridge/detail/Namespace.h
+	<LuaBridge/detail/Config.h>
+	<LuaBridge/detail/ClassInfo.h>
+	<LuaBridge/detail/Security.h>
+	<LuaBridge/detail/TypeTraits.h>
+	<stdexcept>
+	<string>
+
+1389370498 /usr/include/lua5.2//lua.h
+	<stdarg.h>
+	<stddef.h>
+	"luaconf.h"
+
+1414225256 /usr/include/lua5.2//luaconf.h
+	<limits.h>
+	<stddef.h>
+	"lua5.2-deb-multiarch.h"
+	<stdio.h>
+	<math.h>
+
+1389370498 /usr/include/lua5.2//lauxlib.h
+	<stddef.h>
+	<stdio.h>
+	"lua.h"
+
+1389370498 /usr/include/lua5.2//lualib.h
+	"lua.h"
+
+1571009661 source:/home/pi/p/Smart/src/AutoHomePi.cpp
+	"AutoHomePi.h"
+	<sqlite3.h>
+	<LuaBridge/Vector.h>
+
+1571000029 /home/pi/p/Smart/include/AutoHomePi.h
+	<sqlite3.h>
+	<Device.h>
+	<HardwareList.h>
+	<Hardware.h>
+	<vector>
+	<string>
+	<iostream>
+	<thread>
+	<chrono>
+	<DataVector.h>
+	<OneWire.h>
+	<I2C.h>
+
+1570735584 /home/pi/p/Smart/include/Device.h
+	<lua.h>
+	<lauxlib.h>
+	<lualib.h>
+	<LuaBridge.h>
+	<string>
+	<memory>
+	<json.h>
+	<DataVector.h>
+
+1571002815 source:/home/pi/p/Smart/src/Device.cpp
+	"Device.h"
+	"AutoHomePi.h"
+
+1570735394 /home/pi/p/Smart/include/Hardware.h
+	<json.h>
+	<string>
+	<lua.h>
+	<lauxlib.h>
+	<lualib.h>
+	<LuaBridge.h>
+	<DataVector.h>
+	<Device.h>
+
+1568883030 /home/pi/p/Smart/include/json.h
+	<algorithm>
+	<cassert>
+	<ciso646>
+	<cstddef>
+	<functional>
+	<initializer_list>
+	<iosfwd>
+	<iterator>
+	<memory>
+	<numeric>
+	<string>
+	<utility>
+	<vector>
+	<utility>
+	<algorithm>
+	<array>
+	<ciso646>
+	<forward_list>
+	<iterator>
+	<map>
+	<string>
+	<tuple>
+	<type_traits>
+	<unordered_map>
+	<utility>
+	<valarray>
+	<exception>
+	<stdexcept>
+	<string>
+	<cstddef>
+	<utility>
+	<stdint.h>
+	<stdint.h>
+	<cstdlib>
+	<ciso646>
+	<cstddef>
+	<type_traits>
+	<ciso646>
+	<limits>
+	<type_traits>
+	<utility>
+	<iterator>
+	<type_traits>
+	<cstdint>
+	<map>
+	<memory>
+	<string>
+	<vector>
+	<array>
+	<ciso646>
+	<cstddef>
+	<cstdint>
+	<string>
+	<algorithm>
+	<ciso646>
+	<iterator>
+	<string>
+	<tuple>
+	<type_traits>
+	<utility>
+	<valarray>
+	<vector>
+	<cstddef>
+	<iterator>
+	<string>
+	<tuple>
+	<algorithm>
+	<array>
+	<cassert>
+	<cmath>
+	<cstddef>
+	<cstdint>
+	<cstdio>
+	<cstring>
+	<iterator>
+	<limits>
+	<string>
+	<utility>
+	<array>
+	<cassert>
+	<cstddef>
+	<cstdio>
+	<cstring>
+	<istream>
+	<iterator>
+	<memory>
+	<numeric>
+	<string>
+	<type_traits>
+	<utility>
+	<cassert>
+	<cstddef>
+	<string>
+	<utility>
+	<vector>
+	<cstdint>
+	<utility>
+	<string>
+	<array>
+	<clocale>
+	<cstddef>
+	<cstdio>
+	<cstdlib>
+	<initializer_list>
+	<string>
+	<utility>
+	<vector>
+	<cassert>
+	<cmath>
+	<cstdint>
+	<functional>
+	<string>
+	<utility>
+	<vector>
+	<cstddef>
+	<limits>
+	<ciso646>
+	<iterator>
+	<type_traits>
+	<cstddef>
+	<iterator>
+	<utility>
+	<algorithm>
+	<cassert>
+	<cctype>
+	<numeric>
+	<string>
+	<utility>
+	<vector>
+	<initializer_list>
+	<utility>
+	<algorithm>
+	<array>
+	<cstdint>
+	<cstring>
+	<limits>
+	<string>
+	<algorithm>
+	<cstddef>
+	<ios>
+	<iterator>
+	<memory>
+	<ostream>
+	<string>
+	<vector>
+	<algorithm>
+	<array>
+	<cassert>
+	<ciso646>
+	<clocale>
+	<cmath>
+	<cstddef>
+	<cstdint>
+	<cstdio>
+	<limits>
+	<string>
+	<type_traits>
+	<utility>
+	<array>
+	<cassert>
+	<ciso646>
+	<cmath>
+	<cstdint>
+	<cstring>
+	<limits>
+	<type_traits>
+
+1570735729 source:/home/pi/p/Smart/src/Hardware.cpp
+	"Hardware.h"
+	<AutoHomePi.h>
+	<fstream>
+	<OneWire.h>
+
+1570184982 /home/pi/p/Smart/include/DataVector.h
+	<vector>
+	<iostream>
+	<string>
+
+1570185523 source:/home/pi/p/Smart/src/DataVector.cpp
+	"DataVector.h"
+	<math.h>
+
+1571010979 /home/pi/p/Smart/include/OneWire.h
+	<bcm2835.h>
+	<cstdint>
+	<string>
+	<vector>
+	<math.h>
+
+1571010874 source:/home/pi/p/Smart/src/OneWire.cpp
+	<OneWire.h>
+	<iostream>
+	<iomanip>
+	<sstream>
+
+1568223982 /home/pi/p/Smart/include/LuaBridge/Vector.h
+	<LuaBridge/detail/Stack.h>
+	<vector>
+
+1570709649 source:/home/pi/p/Smart/src/I2C.cpp
+	<I2C.h>
+	<iostream>
+
+1570704717 /home/pi/p/Smart/include/I2C.h
+	<bcm2835.h>
+	<cstdint>
+	<vector>
+	<I2C.h>
+
+1570467140 source:/home/pi/p/Smart/src/mcp23017pi.cpp
+	"mcp23017pi.h"
+	"mcp23017pi.h"
+	<stdio.h>
+
+1570467161 /home/pi/p/Smart/include/mcp23017pi.h
+	"bcm2835.h"
+	<stdint.h>
+
+1571000247 /home/pi/p/Smart/include/HardwareList.h
+	<Hardware.h>
+
+1571002853 source:/home/pi/p/Smart/src/HardwareList.cpp
+	"HardwareList.h"
+
