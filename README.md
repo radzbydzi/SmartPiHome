@@ -1,3 +1,3 @@
-# Test_z_programem
+# Smart Pi Home
 
-SMART HOME
+Smart home system on Raspberry Pi with LUA script support.
